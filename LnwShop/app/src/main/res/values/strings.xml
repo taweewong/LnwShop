@@ -3,5 +3,8 @@
     <string name="title_home">Home</string>
     <string name="title_feature">Feature</string>
     <string name="title_forum">Forum</string>
+    <string name="home_item_hot">สินค้ายอดฮิต Hot !!!</string>
+    <string name="home_shop_hot">ร้านค้ายอดฮิต Hot !!!</string>
+    <string name="new_item">สินค้ามาใหม่ New !!!</string>
 
 </resources>
