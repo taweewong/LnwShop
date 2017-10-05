@@ -1,5 +1,6 @@
 package com.homework06.lnwshop;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,13 +10,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.support.v7.widget.SearchView;
-import android.widget.Toast;
-
 
 import com.homework06.lnwshop.fragment.HomeFragment;
 
@@ -67,6 +66,9 @@ public class MainActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
+                if (query.toLowerCase().contains("eloop")) {
+                    showSearchResult();
+                }
                 return false;
             }
 
@@ -97,6 +99,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showSearchResult() {
+        Intent intent = new Intent(this, SearchResultActivity.class);
+        startActivity(intent);
     }
 
     private void setupDrawer() {
