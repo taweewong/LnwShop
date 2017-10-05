@@ -146,7 +146,8 @@
                             android:layout_height="wrap_content"
                             android:ems="3"
                             android:inputType="number"
-                            android:paddingEnd="5dp" />
+                            android:paddingEnd="5dp"
+                            android:text="1" />
                     </LinearLayout>
 
                     <LinearLayout
