@@ -1,9 +1,12 @@
 package com.homework06.lnwshop;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import com.homework06.lnwshop.fragment.CartActivity;
 
 public class ProductActivity extends AppCompatActivity {
 
@@ -18,8 +21,13 @@ public class ProductActivity extends AppCompatActivity {
         addItemLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                openActivity(CartActivity.class);
             }
         });
+    }
+
+    private void openActivity(Class destinationClass) {
+        Intent intent = new Intent(this, destinationClass);
+        startActivity(intent);
     }
 }
