@@ -7,7 +7,7 @@
     tools:context="com.homework06.lnwshop.fragment.HomeFragment">
 
     <LinearLayout
-        android:layout_width="395dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="8dp"
@@ -32,12 +32,13 @@
             android:id="@+id/hotItemImageView"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/eloop_e14" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="395dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="8dp"
@@ -69,28 +70,33 @@
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/google_chromezone_store" />
 
             <ImageView
                 android:id="@+id/hotShopImageView2"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
+                android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/seven_eleven" />
 
             <ImageView
                 android:id="@+id/hotShopImageView3"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
+                android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/simple_restaurant" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="395dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="8dp"
@@ -115,7 +121,8 @@
             android:id="@+id/newItemImageView"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/google_pixel" />
 
     </LinearLayout>
 
