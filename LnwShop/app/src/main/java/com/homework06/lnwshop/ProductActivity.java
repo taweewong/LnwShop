@@ -7,8 +7,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.homework06.lnwshop.fragment.CartActivity;
-
 public class ProductActivity extends AppCompatActivity {
 
     LinearLayout addItemLayout;

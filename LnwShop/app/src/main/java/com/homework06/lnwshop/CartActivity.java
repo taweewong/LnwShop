@@ -1,4 +1,4 @@
-package com.homework06.lnwshop.fragment;
+package com.homework06.lnwshop;
 
 import android.content.Intent;
 import android.os.Bundle;

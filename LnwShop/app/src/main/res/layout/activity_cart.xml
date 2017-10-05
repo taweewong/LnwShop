@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/darker_gray"
     android:orientation="vertical"
-    tools:context="com.homework06.lnwshop.fragment.CartActivity">
+    tools:context="com.homework06.lnwshop.CartActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
