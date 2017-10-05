@@ -7,4 +7,7 @@
     <string name="home_shop_hot">ร้านค้ายอดฮิต Hot !!!</string>
     <string name="new_item">สินค้ามาใหม่ New !!!</string>
 
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
 </resources>
